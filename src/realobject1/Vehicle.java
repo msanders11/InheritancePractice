@@ -10,5 +10,11 @@ package realobject1;
  * @author Mike
  */
 public class Vehicle {
+    private String vehicleColor;
+    private boolean isRunning = false;
     
+    private void startVehicle(){
+        isRunning = true;
+        System.out.println("Vehicle has been started.");
+    }
 }

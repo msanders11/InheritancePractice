@@ -9,6 +9,6 @@ package imaginary3;
  *
  * @author Mike
  */
-public class SeaMonster {
+public class SeaMonster extends MythologicalCreature {
     
 }

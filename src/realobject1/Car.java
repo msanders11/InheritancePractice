@@ -10,5 +10,8 @@ package realobject1;
  * @author Mike
  */
 public class Car extends Vehicle {
+    private String makeOfCar;
+    private String modelOfCar;
+    
     
 }

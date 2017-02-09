@@ -9,6 +9,28 @@ package imaginary1;
  *
  * @author Mike
  */
-public class Monster {
+public class Monster extends Character {
+    private int numberofEyes;
+    private String originOfMonster;
+    
+        public void scarePeople(){
+        System.out.println("scaring people...");
+    }
+
+    public int getNumberofEyes() {
+        return numberofEyes;
+    }
+
+    public void setNumberofEyes(int numberofEyes) {
+        this.numberofEyes = numberofEyes;
+    }
+
+    public String getOriginOfMonster() {
+        return originOfMonster;
+    }
+
+    public void setOriginOfMonster(String originOfMonster) {
+        this.originOfMonster = originOfMonster;
+    }
     
 }

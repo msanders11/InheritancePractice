@@ -9,6 +9,6 @@ package imaginary1;
  *
  * @author Mike
  */
-public class Bogeyman {
+public class Bogeyman extends Monster {
     
 }

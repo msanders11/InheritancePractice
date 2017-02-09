@@ -9,6 +9,6 @@ package imaginary2;
  *
  * @author Mike
  */
-public class Zombie {
+public class Zombie extends UndeadCreature{
     
 }

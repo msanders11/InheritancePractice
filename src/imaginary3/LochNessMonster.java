@@ -9,6 +9,6 @@ package imaginary3;
  *
  * @author Mike
  */
-public class LochNessMonster {
+public class LochNessMonster extends SeaMonster {
     
 }
