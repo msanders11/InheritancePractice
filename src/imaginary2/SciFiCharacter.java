@@ -12,9 +12,9 @@ package imaginary2;
 public class SciFiCharacter {
     private String name;
     private String characterOrigin;
+    private String SciFiCharacterStory;
     
     public String findSciFiCharacterStory(){
-        String SciFiCharacterStory = null;
         return SciFiCharacterStory;
     }
 

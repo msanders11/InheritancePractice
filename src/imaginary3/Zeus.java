@@ -10,5 +10,29 @@ package imaginary3;
  * @author Mike
  */
 public class Zeus extends GreekGod {
+    private String magicalPowers;
+    private boolean isRulerOfGods = true;
+    
+    
+    public void throwThunderBolts(){
+        System.out.println("Zeus is throwing thunderbolts!");
+    }
+
+    public String getMagicalPowers() {
+        return magicalPowers;
+    }
+
+    public void setMagicalPowers(String magicalPowers) {
+        this.magicalPowers = magicalPowers;
+    }
+
+    public boolean isIsRulerOfGods() {
+        return isRulerOfGods;
+    }
+
+    public void setIsRulerOfGods(boolean isRulerOfGods) {
+        this.isRulerOfGods = isRulerOfGods;
+    }
+ 
     
 }

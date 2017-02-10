@@ -11,6 +11,7 @@ package imaginary2;
  */
 public class Zombie extends UndeadCreature{
     private boolean isFull;
+    private String weakness;
     
     
     
@@ -25,6 +26,14 @@ public class Zombie extends UndeadCreature{
 
     public void setIsFull(boolean isFull) {
         this.isFull = isFull;
+    }
+
+    public String getWeakness() {
+        return weakness;
+    }
+
+    public void setWeakness(String weakness) {
+        this.weakness = weakness;
     }
     
     
