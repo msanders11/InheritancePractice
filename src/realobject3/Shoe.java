@@ -10,5 +10,26 @@ package realobject3;
  * @author Mike
  */
 public class Shoe extends Footwear{
+    private String brand;
+    private String shoeFastenerStyle;
+    
+    
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getShoeFastenerStyle() {
+        return shoeFastenerStyle;
+    }
+
+    public void setShoeFastenerStyle(String shoeFastenerStyle) {
+        this.shoeFastenerStyle = shoeFastenerStyle;
+    }
+    
     
 }

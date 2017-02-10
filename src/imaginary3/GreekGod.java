@@ -9,6 +9,6 @@ package imaginary3;
  *
  * @author Mike
  */
-public class MythologicalCreature {
+public class GreekGod extends MythologicalBeing {
     
 }

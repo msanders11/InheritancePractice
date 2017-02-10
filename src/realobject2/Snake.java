@@ -10,5 +10,28 @@ package realobject2;
  * @author Mike
  */
 public class Snake extends Reptile {
+    private int length;
+    private boolean isVenomous;
+    
+    public void consumePrey(){
+        System.out.println("Snake is eating...");
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public boolean isIsVenomous() {
+        return isVenomous;
+    }
+
+    public void setIsVenomous(boolean isVenomous) {
+        this.isVenomous = isVenomous;
+    }
+    
     
 }

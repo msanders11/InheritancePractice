@@ -11,4 +11,6 @@ package realobject3;
  */
 public class RunningShoe extends Shoe{
     
+    
+    
 }

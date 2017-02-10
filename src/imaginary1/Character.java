@@ -11,6 +11,19 @@ package imaginary1;
  */
 public class Character {
     private String name;
+    private int age;
+    
+    public void communicate(){
+        System.out.println("Communicating....");
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
     
 
     public String getName() {

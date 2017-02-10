@@ -10,5 +10,29 @@ package imaginary2;
  * @author Mike
  */
 public class SciFiCharacter {
+    private String name;
+    private String characterOrigin;
+    
+    public String findSciFiCharacterStory(){
+        String SciFiCharacterStory = null;
+        return SciFiCharacterStory;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCharacterOrigin() {
+        return characterOrigin;
+    }
+
+    public void setCharacterOrigin(String characterOrigin) {
+        this.characterOrigin = characterOrigin;
+    }
+    
     
 }

@@ -11,7 +11,29 @@ package realobject1;
  */
 public class Car extends Vehicle {
     private String makeOfCar;
-    private String modelOfCar;
+    private int numberOfDoors;
+
+    public void honkCarHorn(){
+        System.out.println("Honk Honk");
+    }
+    
+    public String getMakeOfCar() {
+        return makeOfCar;
+    }
+
+    public void setMakeOfCar(String makeOfCar) {
+        this.makeOfCar = makeOfCar;
+    }
+
+    public int getNumberOfDoors() {
+        return numberOfDoors;
+    }
+
+    public void setNumberOfDoors(int numberOfDoors) {
+        this.numberOfDoors = numberOfDoors;
+    }
+
+    
     
     
 }

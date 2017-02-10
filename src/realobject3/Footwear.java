@@ -10,5 +10,30 @@ package realobject3;
  * @author Mike
  */
 public class Footwear {
+    private String material;
+    private String size;
+    private boolean shoesOn = false;
+    
+    public void putOnFootwear(){
+        System.out.println("Putting on footwear");
+        shoesOn = true;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+    
     
 }
