@@ -10,12 +10,18 @@ package realobject1;
  * @author Mike
  */
 public class Corvette extends Car {
+
     private String model;
     private String year;
     private boolean isConvertible;
-    
-    public void putTheTopDown(){
-        if(isConvertible){
+
+    @Override
+    public void startVehicle() {
+        System.out.println("Corvette was started.");
+    }
+
+    public void putTheTopDown() {
+        if (isConvertible) {
             System.out.println("Putting the top down...");
         } else {
             System.out.println("This car is not a convertible.");
@@ -45,8 +51,5 @@ public class Corvette extends Car {
     public void setIsConvertible(boolean isConvertible) {
         this.isConvertible = isConvertible;
     }
-    
-    
-    
-    
+
 }

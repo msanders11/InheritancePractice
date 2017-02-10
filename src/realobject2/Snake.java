@@ -10,10 +10,16 @@ package realobject2;
  * @author Mike
  */
 public class Snake extends Reptile {
+
     private int length;
     private boolean isVenomous;
-    
-    public void consumePrey(){
+
+    @Override
+    public void layInTheSun() {
+        System.out.println("The snake is laying in the sun.");
+    }
+
+    public void consumePrey() {
         System.out.println("Snake is eating...");
     }
 
@@ -32,6 +38,5 @@ public class Snake extends Reptile {
     public void setIsVenomous(boolean isVenomous) {
         this.isVenomous = isVenomous;
     }
-    
-    
+
 }

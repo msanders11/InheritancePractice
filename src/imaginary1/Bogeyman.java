@@ -10,15 +10,20 @@ package imaginary1;
  * @author Mike
  */
 public class Bogeyman extends Monster {
+
     private String bogeymanAppearance;
     private boolean isHidingUnderTheBed;
 
-    
-    public void hideUnderTheBed(){
+    @Override
+    public void scarePeople() {
+        System.out.println("The Bogeyman is scaring people...");
+    }
+
+    public void hideUnderTheBed() {
         isHidingUnderTheBed = true;
         System.out.println("The bogeyman is under the bed...");
     }
-    
+
     public boolean isHidingUnderTheBed() {
         return isHidingUnderTheBed;
     }
@@ -35,7 +40,4 @@ public class Bogeyman extends Monster {
         this.bogeymanAppearance = appearance;
     }
 
-
-    
-    
 }

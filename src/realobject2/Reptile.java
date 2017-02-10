@@ -14,7 +14,7 @@ public class Reptile {
     private String colorOfScales;
     
     
-    private void layInTheSun(){
+    public void layInTheSun(){
         System.out.println("Reptile is laying in the sun.");
     }
 

@@ -10,10 +10,16 @@ package imaginary1;
  * @author Mike
  */
 public class Monster extends Character {
+
     private int numberofEyes;
     private String originOfMonster;
-    
-        public void scarePeople(){
+
+    @Override
+    public void communicate() {
+        System.out.println("The monster is speaking.");
+    }
+
+    public void scarePeople() {
         System.out.println("scaring people...");
     }
 
@@ -32,5 +38,5 @@ public class Monster extends Character {
     public void setOriginOfMonster(String originOfMonster) {
         this.originOfMonster = originOfMonster;
     }
-    
+
 }

@@ -14,7 +14,7 @@ public class SciFiCharacter {
     private String characterOrigin;
     private String SciFiCharacterStory;
     
-    public String findSciFiCharacterStory(){
+    public String findSciFiCharacterStory(String SciFiCharacterStory){
         return SciFiCharacterStory;
     }
 

@@ -13,8 +13,7 @@ public class Vehicle {
     private String vehicleColor;
     private boolean isRunning = false;
     
-    private void startVehicle(){
-        isRunning = true;
+    public void startVehicle(){
         System.out.println("Vehicle has been started.");
     }
 

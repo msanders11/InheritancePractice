@@ -10,10 +10,16 @@ package realobject2;
  * @author Mike
  */
 public class Cobra extends Snake {
+
     private String typeOfCobra;
     private boolean isRaisedUp;
-    
-    public void spitVenon(){
+
+    @Override
+    public void layInTheSun() {
+        System.out.println("The Cobra is laying in the sun.");
+    }
+
+    public void spitVenon() {
         System.out.println("Cobra just spit venom");
     }
 
@@ -32,6 +38,5 @@ public class Cobra extends Snake {
     public void setIsRaisedUp(boolean isRaisedUp) {
         this.isRaisedUp = isRaisedUp;
     }
-    
-    
+
 }

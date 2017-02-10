@@ -10,13 +10,19 @@ package realobject1;
  * @author Mike
  */
 public class Car extends Vehicle {
+
     private String makeOfCar;
     private int numberOfDoors;
+    
+    @Override
+    public void startVehicle() {
+        System.out.println("The car was started.");
+    }
 
-    public void honkCarHorn(){
+    public void honkCarHorn() {
         System.out.println("Honk Honk");
     }
-    
+
     public String getMakeOfCar() {
         return makeOfCar;
     }
@@ -33,7 +39,4 @@ public class Car extends Vehicle {
         this.numberOfDoors = numberOfDoors;
     }
 
-    
-    
-    
 }

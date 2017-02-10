@@ -9,13 +9,17 @@ package imaginary2;
  *
  * @author Mike
  */
-public class Zombie extends UndeadCreature{
+public class Zombie extends UndeadCreature {
+
     private boolean isFull;
     private String weakness;
-    
-    
-    
-    public void consumeBrains(){
+
+    @Override
+    public void chasePrey() {
+        System.out.println("Run, there is a zombie chasing you!");
+    }
+
+    public void consumeBrains() {
         System.out.println("Zombie is eating brains...");
         isFull = true;
     }
@@ -35,6 +39,5 @@ public class Zombie extends UndeadCreature{
     public void setWeakness(String weakness) {
         this.weakness = weakness;
     }
-    
-    
+
 }
