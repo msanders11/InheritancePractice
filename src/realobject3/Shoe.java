@@ -12,6 +12,7 @@ package realobject3;
 public class Shoe extends Footwear{
     private String brand;
     private String shoeFastenerStyle;
+    private boolean shoesOn;
     
     
 
@@ -29,6 +30,11 @@ public class Shoe extends Footwear{
 
     public void setShoeFastenerStyle(String shoeFastenerStyle) {
         this.shoeFastenerStyle = shoeFastenerStyle;
+    }
+
+    @Override
+    public void putOnFootwear() {
+        shoesOn = true;
     }
     
     

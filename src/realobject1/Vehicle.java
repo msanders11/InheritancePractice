@@ -9,13 +9,11 @@ package realobject1;
  *
  * @author Mike
  */
-public class Vehicle {
+public abstract class Vehicle {
     private String vehicleColor;
     private boolean isRunning = false;
     
-    public void startVehicle(){
-        System.out.println("Vehicle has been started.");
-    }
+    public abstract void startVehicle();
 
     public String getVehicleColor() {
         return vehicleColor;

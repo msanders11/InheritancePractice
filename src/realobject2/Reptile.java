@@ -9,14 +9,12 @@ package realobject2;
  *
  * @author Mike
  */
-public class Reptile {
+public abstract class Reptile {
     private String habitat;
     private String colorOfScales;
     
     
-    public void layInTheSun(){
-        System.out.println("Reptile is laying in the sun.");
-    }
+    public abstract void layInTheSun();
 
     public String getHabitat() {
         return habitat;

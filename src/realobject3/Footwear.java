@@ -9,15 +9,12 @@ package realobject3;
  *
  * @author Mike
  */
-public class Footwear {
+public abstract class Footwear {
     private String material;
     private String size;
-    private boolean shoesOn = false;
     
-    public void putOnFootwear(){
-        System.out.println("Putting on footwear");
-        shoesOn = true;
-    }
+    
+    public abstract void putOnFootwear();
 
     public String getMaterial() {
         return material;
