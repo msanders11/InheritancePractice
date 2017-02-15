@@ -9,13 +9,11 @@ package imaginary1;
  *
  * @author Mike
  */
-public class Character {
+public abstract class Character {
     private String name;
     private int age;
     
-    public void communicate(){
-        System.out.println("Communicating....");
-    }
+    public abstract void communicate();
 
     public int getAge() {
         return age;

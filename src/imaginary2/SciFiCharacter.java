@@ -9,14 +9,12 @@ package imaginary2;
  *
  * @author Mike
  */
-public class SciFiCharacter {
+public abstract class SciFiCharacter {
     private String name;
     private String characterOrigin;
-    private String SciFiCharacterStory;
+    String SciFiCharacterStory;
     
-    public String findSciFiCharacterStory(String SciFiCharacterStory){
-        return SciFiCharacterStory;
-    }
+    public abstract String findSciFiCharacterStory();
 
     public String getName() {
         return name;

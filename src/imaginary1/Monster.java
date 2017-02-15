@@ -9,7 +9,7 @@ package imaginary1;
  *
  * @author Mike
  */
-public class Monster extends Character {
+public abstract class Monster extends Character {
 
     private int numberofEyes;
     private String originOfMonster;
@@ -19,9 +19,7 @@ public class Monster extends Character {
         System.out.println("The monster is speaking.");
     }
 
-    public void scarePeople() {
-        System.out.println("scaring people...");
-    }
+    public abstract void scarePeople();
 
     public int getNumberofEyes() {
         return numberofEyes;

@@ -9,13 +9,11 @@ package imaginary2;
  *
  * @author Mike
  */
-public class UndeadCreature extends SciFiCharacter{
+public abstract class UndeadCreature extends SciFiCharacter{
     private boolean allergicToSun;
     private String typeOfFood;
     
-    public void chasePrey(){
-        System.out.println("Run, it is behind you!");
-    }
+    public abstract void chasePrey();
 
     public boolean isAllergicToSun() {
         return allergicToSun;
@@ -31,6 +29,11 @@ public class UndeadCreature extends SciFiCharacter{
 
     public void setTypeOfFood(String typeOfFood) {
         this.typeOfFood = typeOfFood;
+    }
+
+    @Override
+    public String findSciFiCharacterStory() {
+        return SciFiCharacterStory;
     }
     
     
